@@ -11,7 +11,7 @@ main {
 }
 
 nav.navbar {
-  box-shadow: 5px 2px 2px #eee;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
   position: sticky;
   top: 0;
 }
