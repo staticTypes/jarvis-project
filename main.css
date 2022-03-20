@@ -1,0 +1,70 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  background: #ffffff;
+  background: -webkit-linear-gradient(top, #ffffff, #ece2dc);
+  background: -moz-linear-gradient(top, #ffffff, #ece2dc);
+  background: linear-gradient(to bottom, #ffffff, #ece2dc);
+  height: 100%;
+}
+
+nav.navbar {
+  box-shadow: 5px 2px 2px #eee;
+  position: sticky;
+  top: 0;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.main-subtitle {
+  width: 50vw;
+  margin: auto;
+}
+
+.twitter-blue {
+  color: rgb(29, 155, 240);
+}
+
+.profile-pics > .image {
+  border: solid 2px #fff;
+  border-radius: 50%;
+}
+
+.profile-pics > .image > img {
+  border-radius: 50%;
+}
+
+.profile-pics > .image:not(:last-child) {
+  margin-right: -15px;
+}
+
+.description-wrapper {
+  flex-basis: 100%;
+}
+
+.approved-by-wrapper {
+  flex-basis: 100%;
+}
+
+@media (min-width: 960px) {
+  .description-wrapper {
+    flex-basis: 60%;
+  }
+
+  .approved-by-wrapper {
+    flex-basis: 25%;
+  }
+}
